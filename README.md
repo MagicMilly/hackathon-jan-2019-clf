@@ -1,25 +1,6 @@
 # Churn Baby Churn
-### Hackathon Jan 2019
-
-
-### Welcome
-You mission **should you choose to accept it** is to help predict **churn**.
-
-**What is churn?**
-
-When a customer says, *'Adios, Geico.'* We say that Geico has experienced churn.  In other words, **churn** is the event of a company losing a customer.
-
-**In other words** you have to predict when a customer is about to leave the company.  So, how can 
-![](boy-bye-meme.jpg)
-
-**Datset Information**
-* filename - *WA_Fn-UseC_-Telco-Customer-Churn.csv*
-* description
->Telcom Customer Churn
-Each row represents a customer, each column contains customer’s attributes described on the column Metadata.
->The raw data contains 7043 rows (customers) and 21 columns (features).
->The “Churn” column is our target.
-* 
+### Hackathon January 2019
+### Emily J. Cain & Andrew Wester
 
 **Rules**
 * Teams of 1 or 2
@@ -31,4 +12,25 @@ Each row represents a customer, each column contains customer’s attributes des
 * Business Relevance
 * Feature Insights
 
-### Good luck!!!
+## Methodology
+I. Load & Inspect the Data 
+
+II. Data Cleaning & Exploratory Data Analysis 
+* Hidden Values
+* Convert Binary Columns
+* Correlation Heatmap
+
+III. Preprocess the Data 
+
+IV. Modeling 
+* Custom Functions
+  * Print Metrics Function
+  * Custom Prediction Function
+  * Plot Feature Importance Function
+* GridSearch
+* Random Forest
+* Decision Tree
+* AdaBoost
+* Gradient Boosting 
+
+V. Conclusions & Recommendations
